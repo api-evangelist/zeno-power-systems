@@ -1,8 +1,23 @@
 aid: zeno-power-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeno-power-systems.png
 name: Zeno Power Systems
-description: Zeno Power Systems is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Zeno Power Systems (Zeno Power) develops radioisotope power systems — compact "nuclear
+  batteries" that convert the decay heat of radioisotopes into long-duration electricity for extreme
+  environments such as the lunar surface, deep-sea infrastructure, and remote defense installations.
+  Backed by Techstars and other investors, Zeno is a hardware and energy-systems company; as of this
+  enrichment pass it publishes no public web API, developer portal, documentation, SDK, or GitHub
+  organization, so this profile is identity-only.
 url: https://raw.githubusercontent.com/api-evangelist/zeno-power-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Nuclear
+- Radioisotope
+- Power Systems
+- Hardware
+- Space
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +45,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://zenopowersystems.com/
+  url: https://zenopower.com/
+- type: DomainSecurity
+  url: security/zeno-power-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
